@@ -1,0 +1,109 @@
+ .u-section-1 {
+  background-image: url("images/candy1.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 885px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 712px;
+  min-height: 502px;
+  height: auto;
+  background-image: none;
+  margin: 60px auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-1 {
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-size: 1.875rem;
+  font-weight: 400;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 6.875rem;
+  text-transform: uppercase;
+  line-height: 1;
+  background-image: none;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1.25rem;
+  text-shadow: 2px -2px 8px rgba(128,128,128,1);
+  line-height: 1.8;
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 20px auto 0;
+  padding: 15px 41px 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 730px;
+  }
+
+  .u-section-1 .u-group-1 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 662px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 497px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 313px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.125rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 3rem;
+  }
+}
